@@ -6,7 +6,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ExerciseComponent } from './components/exercise/exercise.component';
 import { GratitudeComponent } from './components/gratitude/gratitude.component';
 import { HomeComponent } from './components/home/home.component';
-import { LoginComponent } from './components/login/login.component';
+import { LoginFormComponent } from './components/forms/login/login.component';
 import { MeditationComponent } from './components/meditation/meditation.component';
 import { VisionBoardComponent } from './components/vision-board/vision-board.component';
 import { LogoutComponent } from './components/logout/logout.component';
@@ -21,7 +21,7 @@ const routes: Routes = [
   {path: 'gratitude', component: GratitudeComponent},
   {path: 'vision-board', component: VisionBoardComponent},
   {path: 'sign-up', component: MeditationComponent},
-  {path: 'login', component: LoginComponent},
+  {path: 'login', component: LoginFormComponent},
   {path: 'logout', component: LogoutComponent}
 ];
 
