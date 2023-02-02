@@ -22,6 +22,7 @@ import { ModalsListComponent } from './modals/modals-list/modals-list.component'
 import { ReactiveFormsModule } from '@angular/forms';
 import { TabsComponent } from './components/tabs/tabs/tabs.component';
 import { TabComponent } from './components/tabs/tab/tab.component';
+import { WarningDirective } from './directives/warning.directive';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { TabComponent } from './components/tabs/tab/tab.component';
     ModalComponent,
     ModalsListComponent,
     TabsComponent,
-    TabComponent
+    TabComponent,
+    WarningDirective
   ],
   imports: [
     BrowserModule,
