@@ -1,0 +1,10 @@
+<div id="modal" [ngClass]="{ hidden:!modalService.modalOpen(modalId)}">
+
+  <div (click)="modalService.toggleModal(modalId)"></div>
+
+  <ng-content select="[heading]"></ng-content>
+
+  <div class="close-modal" (click)="closeModal()">Close Modal</div>
+
+  <ng-content></ng-content>
+</div>
