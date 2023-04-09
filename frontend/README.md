@@ -64,6 +64,7 @@ Concepts
 * Animation - accordion, breath bubbles
 * Data visualization - to visually track exercise and mood
 * Machine learning - chatbot, NLP
+* AWS Lambda - for serverless contact form
 
 Components
 
@@ -79,7 +80,6 @@ Components
 * Modal
 * Tabs
 * Tab
-* Accordion
+* Accordion - use animations angular cdk
 * Vision Board
 
-# Test
